@@ -33,15 +33,15 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #C0B283;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #373737;
+$background-alt: #F4F4F4;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #373737;
 
 // Define text colors
 $heading: #374054;
@@ -725,17 +725,17 @@ footer {
         border-radius: 4px;
         border: none;
         margin-bottom: 10px;
-        background: #246c9c;
-        color: #fff;
-        border: 1px solid #246c9c;
+        background: #F4F4F4;
+        color: #373737;
+        border: 1px solid #373737;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: #373737;
         }
 
         &:focus {
             outline: none;
-            background: darken(#246c9c, 10%);
+            background: darken(#F4F4F4, 10%);
         }
     }
 
